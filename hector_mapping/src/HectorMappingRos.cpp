@@ -87,7 +87,7 @@ HectorMappingRos::HectorMappingRos()
   private_nh_.param("map_frame", p_map_frame_, std::string("map"));
   private_nh_.param("odom_frame", p_odom_frame_, std::string("odom"));
 
-  private_nh_.param("pub_map_scanmatch_transform", p_pub_map_scanmatch_transform_,true);
+  private_nh_.param("pub_map_scanmatch_transform", p_pub_map_scanmatch_transform_, true);
   private_nh_.param("tf_map_scanmatch_transform_frame_name", p_tf_map_scanmatch_transform_frame_name_, std::string("scanmatcher_frame"));
 
   private_nh_.param("output_timing", p_timing_output_,false);
